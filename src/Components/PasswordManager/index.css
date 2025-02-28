@@ -1,0 +1,266 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-container {
+  width: 80%;
+}
+.app-logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.app-logo {
+  width: 200px;
+}
+.card-container {
+  background-color: #5763a5;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.form-heading {
+  color: #f8fafc;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.form-container {
+  background: #454f84;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  justify-content: center;
+  order: 0;
+}
+.card-image {
+  width: 340px;
+  margin: 20px;
+  order: 1;
+}
+.input-container {
+  display: flex;
+  background-color: white;
+  margin-bottom: 15px;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+.input-icon {
+  width: 25px;
+}
+.input-box {
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  width: 100%;
+}
+.input-icon-container {
+  border-right: 1px solid #c3caea;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: #0b69ff;
+  padding: 5px 20px 5px 20px;
+  color: #f8fafc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.password-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.your-password-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.hr-line {
+  height: 1px;
+  background: #7683cb;
+  border: none;
+}
+.search-container {
+  height: 25px;
+  background-color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.search-input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.bg-container-bottom {
+  width: 95%;
+}
+.search-icon-container {
+  border-right: 1px solid #c3caea;
+  width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container-bottom {
+  background-color: #5763a5;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.search-icon {
+  width: 20px;
+}
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.label {
+  color: white;
+  margin-right: 20px;
+}
+.password-list-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-password-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.no-password-image {
+  width: 300px;
+}
+.no-password-text {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.results-count {
+  color: white;
+}
+@media screen and (width: 768px) {
+  .card-image {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .app-container {
+    height: 200vh;
+  }
+  .card-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .bg-container {
+    width: 90%;
+  }
+  .form-container {
+    width: 90%;
+    margin-right: 20px;
+  }
+  .app-logo {
+    width: 130px;
+  }
+  .card-image {
+    order: 0;
+    width: 240px;
+  }
+  .form-container {
+    order: 1;
+  }
+  .input-container {
+    width: 80%;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .form-heading {
+    text-align: center;
+    font-size: 14px;
+  }
+  .button {
+    margin-right: 20px;
+  }
+  .input-box {
+    font-size: 12px;
+  }
+  .input-icon {
+    width: 20px;
+  }
+  .no-password-text {
+    font-size: 14px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .search-input {
+    font-size: 10px;
+  }
+  .search-icon {
+    width: 18px;
+  }
+  .your-password-text {
+    font-size: 13px;
+  }
+  .no-password-image {
+    width: 200px;
+  }
+}
+@media screen and (width: 576px) {
+  .button {
+    margin-right: 30px;
+  }
+}
